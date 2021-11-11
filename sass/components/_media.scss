@@ -1,0 +1,159 @@
+@media screen and(min-width:1024px){
+    body{
+        width: 100%;
+        max-width: 1440px;
+        box-sizing: border-box;
+    }
+    header{
+        margin-left: 50px;
+        width: 100vh;
+        min-width: 1024px;
+        display: flex;
+        .navbar{
+            min-width: 100%;
+            .nav{
+                display: flex;
+                width: 100%;
+                max-width: 100%;
+                .logo{
+                    width: 30%;
+                    height: 100%;
+                    text-align: center;
+                }
+                .lista{
+                    display: flex;
+                    width: 70%;
+                    min-width: 70%;
+                    .menu{
+                        margin: auto;
+                        ul{
+                            li{
+                                a{
+                                    margin: 10px;
+                                    width: 100px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .main-container{
+        margin: auto;
+        margin-left: 50px;
+        min-width: 1024px;
+        max-width: 1440px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        .presentacion{
+            min-width: 50%;
+            height: 400px;
+            padding-top: 20px;
+            justify-content: center;
+            .descripcion{
+                width: 100%;
+            }
+            div{
+                margin: auto;
+            }
+        }
+        .texto{
+            min-width: 50%;
+            height: 400px;
+            text-align: center;
+            p{
+                text-align: center;
+                margin: auto;
+            }
+        }
+        .habilidades{
+            section{
+                height: auto;
+                min-width: 1024px;
+                max-width: 1024px;
+                p{
+                    margin: auto;
+                }
+            }
+        }
+        .aplicaciones{
+            height: 600;
+            min-width: 600px;
+            max-width: 1024px;
+            margin: auto;
+            margin-left: 250px;
+            .texto_app{
+                p{
+                    margin-left: 150px;
+                }
+            }
+            .grid-container{
+                text-align: center;
+                display: grid;
+                grid-template-columns: 180px 180px 180px;
+                grid-template-rows: 180px 180px;
+
+                i{
+                    font-size: 4rem;
+                }
+            }
+        }
+        .portfolio__texto{
+            min-width: 1024px;
+            max-width: 1024px;
+            height: auto;
+        }
+        .portfolio{
+            min-width: 1024px;
+            max-width: 1024px;
+            height: 600;
+            display: flex;
+            flex-direction: row;
+            &__proximamente1{
+                width: 30%;
+            }
+            &__proximamente2{
+                width: 30%;
+            }
+            &__proximamente3{
+                width: 30%;
+            }
+        }
+    }
+    
+
+
+    .footer{
+        min-width: 1024px;
+        margin:auto;
+        margin-left: 50px;
+        text-align: center;
+    .contacto{
+        margin: auto;
+        width: 100%;
+        }
+    .textoContacto{
+        margin: auto;
+        }
+        .metodos{
+            margin: auto;
+            width: 100%;
+            min-width: 1000px;
+            display: flex;
+            div{
+                padding-top: 70px;
+             margin: auto;
+                min-width: 30%;
+                height: 200px;
+                justify-content: center;
+                i{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

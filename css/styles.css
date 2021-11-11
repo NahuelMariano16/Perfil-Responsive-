@@ -1,0 +1,245 @@
+@media screen and (min-width: 1024px) {
+  body {
+    width: 100%;
+    max-width: 1440px;
+    box-sizing: border-box; }
+  header {
+    margin-left: 50px;
+    width: 100vh;
+    min-width: 1024px;
+    display: flex; }
+    header .navbar {
+      min-width: 100%; }
+      header .navbar .nav {
+        display: flex;
+        width: 100%;
+        max-width: 100%; }
+        header .navbar .nav .logo {
+          width: 30%;
+          height: 100%;
+          text-align: center; }
+        header .navbar .nav .lista {
+          display: flex;
+          width: 70%;
+          min-width: 70%; }
+          header .navbar .nav .lista .menu {
+            margin: auto; }
+            header .navbar .nav .lista .menu ul li a {
+              margin: 10px;
+              width: 100px; }
+  .main-container {
+    margin: auto;
+    margin-left: 50px;
+    min-width: 1024px;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center; }
+    .main-container .presentacion {
+      min-width: 50%;
+      height: 400px;
+      padding-top: 20px;
+      justify-content: center; }
+      .main-container .presentacion .descripcion {
+        width: 100%; }
+      .main-container .presentacion div {
+        margin: auto; }
+    .main-container .texto {
+      min-width: 50%;
+      height: 400px;
+      text-align: center; }
+      .main-container .texto p {
+        text-align: center;
+        margin: auto; }
+    .main-container .habilidades section {
+      height: auto;
+      min-width: 1024px;
+      max-width: 1024px; }
+      .main-container .habilidades section p {
+        margin: auto; }
+    .main-container .aplicaciones {
+      height: 600;
+      min-width: 600px;
+      max-width: 1024px;
+      margin: auto;
+      margin-left: 250px; }
+      .main-container .aplicaciones .texto_app p {
+        margin-left: 150px; }
+      .main-container .aplicaciones .grid-container {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 180px 180px 180px;
+        grid-template-rows: 180px 180px; }
+        .main-container .aplicaciones .grid-container i {
+          font-size: 4rem; }
+    .main-container .portfolio__texto {
+      min-width: 1024px;
+      max-width: 1024px;
+      height: auto; }
+    .main-container .portfolio {
+      min-width: 1024px;
+      max-width: 1024px;
+      height: 600;
+      display: flex;
+      flex-direction: row; }
+      .main-container .portfolio__proximamente1 {
+        width: 30%; }
+      .main-container .portfolio__proximamente2 {
+        width: 30%; }
+      .main-container .portfolio__proximamente3 {
+        width: 30%; }
+  .footer {
+    min-width: 1024px;
+    margin: auto;
+    margin-left: 50px;
+    text-align: center; }
+    .footer .contacto {
+      margin: auto;
+      width: 100%; }
+    .footer .textoContacto {
+      margin: auto; }
+    .footer .metodos {
+      margin: auto;
+      width: 100%;
+      min-width: 1000px;
+      display: flex; }
+      .footer .metodos div {
+        padding-top: 70px;
+        margin: auto;
+        min-width: 30%;
+        height: 200px;
+        justify-content: center; }
+        .footer .metodos div i {
+          font-size: 2rem; } }
+
+/*CELULARES 320px*/
+* {
+  max-width: 320px;
+  font-family: 'Source Code Pro', monospace;
+  color: white; }
+  * a {
+    color: white; }
+  * a:hover {
+    color: #5ee66c; }
+
+body {
+  margin-left: 100px;
+  background-image: linear-gradient(black, #1d1a4a);
+  color: white; }
+
+.icon {
+  color: white; }
+
+.menu {
+  background-color: black;
+  color: white; }
+  .menu a {
+    color: white;
+    font-weight: bolder; }
+  .menu a:hover {
+    color: #5ee66c; }
+
+.main-container {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .main-container .presentacion {
+    margin: auto;
+    min-height: 300px;
+    text-align: center; }
+    .main-container .presentacion .img {
+      border-radius: 50%;
+      max-width: 150px;
+      border: 3px solid #5ee66c; }
+    .main-container .presentacion .descripcion {
+      margin: 10px;
+      padding-top: 20px; }
+  .main-container .texto {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding-top: 20px; }
+    .main-container .texto__titulo {
+      font-weight: bolder; }
+
+.competencias {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  .competencias .habilidades p {
+    font-weight: bolder; }
+  .competencias .habilidades section {
+    text-align: center;
+    margin: 10px; }
+    .competencias .habilidades section ul {
+      text-align: start;
+      list-style: none; }
+  .competencias .aplicaciones {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center; }
+    .competencias .aplicaciones .texto_app {
+      font-weight: bolder; }
+
+.portfolio {
+  margin-top: 40px;
+  margin-bottom: 150px; }
+  .portfolio p {
+    text-align: center; }
+
+.portfolio__texto {
+  text-align: center;
+  font-weight: bolder; }
+
+.footer {
+  text-align: center; }
+  .footer .metodos {
+    font-weight: bold; }
+
+.fa-html5 {
+  color: #db5816; }
+
+.html5 {
+  color: #db5816; }
+
+.fa-css3-alt {
+  color: #12ade0; }
+
+.css {
+  color: #12ade0; }
+
+.fa-bootstrap {
+  color: #8a0ecc; }
+
+.bootstrap {
+  color: #8a0ecc; }
+
+.fa-sass {
+  color: #db6bd8; }
+
+.sass {
+  color: #db6bd8; }
+
+.fa-git {
+  color: #de5131; }
+
+.git {
+  color: #de5131; }
+
+.fa-github {
+  color: #757575; }
+
+.github {
+  color: #757575; }
+
+.fa-envelope {
+  color: #c71e29; }
+
+.e-Mail {
+  color: #c71e29; }
+
+.fa-linkedin {
+  color: #3667c9; }
+
+.linkedin {
+  color: #3667c9; }
