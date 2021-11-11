@@ -64,10 +64,11 @@
       min-width: 600px;
       max-width: 1024px;
       margin: auto;
-      margin-left: 250px; }
+      margin-left: 300px; }
       .main-container .aplicaciones .texto_app p {
         margin-left: 150px; }
       .main-container .aplicaciones .grid-container {
+        margin-left: -40px;
         text-align: center;
         display: grid;
         grid-template-columns: 180px 180px 180px;
@@ -85,11 +86,14 @@
       display: flex;
       flex-direction: row; }
       .main-container .portfolio__proximamente1 {
-        width: 30%; }
+        width: 30%;
+        margin-left: 25px; }
       .main-container .portfolio__proximamente2 {
-        width: 30%; }
+        width: 30%;
+        margin-left: 25px; }
       .main-container .portfolio__proximamente3 {
-        width: 30%; }
+        width: 30%;
+        margin-left: 25px; }
   .footer {
     min-width: 1024px;
     margin: auto;
@@ -98,6 +102,9 @@
     .footer .contacto {
       margin: auto;
       width: 100%; }
+      .footer .contacto p {
+        font-weight: bolder;
+        font-size: large; }
     .footer .textoContacto {
       margin: auto; }
     .footer .metodos {
@@ -193,6 +200,10 @@ body {
 
 .footer {
   text-align: center; }
+  .footer .contacto {
+    border: none; }
+    .footer .contacto p {
+      font-weight: bolder; }
   .footer .metodos {
     font-weight: bold; }
 

@@ -85,13 +85,14 @@
             min-width: 600px;
             max-width: 1024px;
             margin: auto;
-            margin-left: 250px;
+            margin-left: 300px;
             .texto_app{
                 p{
                     margin-left: 150px;
                 }
             }
             .grid-container{
+                margin-left: -40px;
                 text-align: center;
                 display: grid;
                 grid-template-columns: 180px 180px 180px;
@@ -115,12 +116,15 @@
             flex-direction: row;
             &__proximamente1{
                 width: 30%;
+                margin-left: 25px;
             }
             &__proximamente2{
                 width: 30%;
+                margin-left: 25px;
             }
             &__proximamente3{
                 width: 30%;
+                margin-left: 25px;
             }
         }
     }
@@ -135,7 +139,12 @@
     .contacto{
         margin: auto;
         width: 100%;
+        p{
+            font-weight: bolder;
+            font-size: large;
         }
+        }
+
     .textoContacto{
         margin: auto;
         }
